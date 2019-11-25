@@ -1,0 +1,28 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "description": "See the various hash values of entered text",
+  "repository": "electron/simple-samples",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "macpls": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "rmpge",
+    "mac": {
+      "category": "rmpge",
+      "target": "dmg"
+    }
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "fs-jetpack": "^2.2.3"
+  }
+}

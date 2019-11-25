@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 225 314" 
+    fill="#d40000">
+    <defs>
+        <polygon id="suit" points="28.5,0 48.612,29 28.5,58 8.388,29"/>
+        <path id="numeral" d="M10.34,31.817v-2.812h2.585v-4.635H0v-3.271L13.986,0l2.285,0.008v21.09h3.953v3.271h-3.953l-0.076,4.637h2.167v2.812H10.34L10.34,31.817zM12.925,7.72L4.046,21.097h8.879V7.72z"/>
+    </defs>
+
+        <rect width="100%" height="100%" rx="20" ry="20" fill="#000000"/>
+    <rect width="94%" height="94%" x="3%" y="3%" rx="20" ry="20" fill="#FEFEFE"/>
+
+    <!-- Little Card -->
+    <g class="mini-card">
+        <use xlink:href="#numeral" transform="matrix(3.5,0,0,3.5,15,33.95)"/>
+        <use xlink:href="#suit" transform="matrix(2,0,0,2,90,33.95)"/>
+    </g>

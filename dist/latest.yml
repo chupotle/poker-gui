@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: hash-Setup-1.0.0.exe
+    sha512: ANUYmxt0s33EGHfgt+MV2fYTQfoqkQKgw2yinnHEXJM3Axm9EMZh5fMTS4XyLRAH7xkrRWPvPkYpec0vAfRm8Q==
+    size: 38109503
+path: hash-Setup-1.0.0.exe
+sha512: ANUYmxt0s33EGHfgt+MV2fYTQfoqkQKgw2yinnHEXJM3Axm9EMZh5fMTS4XyLRAH7xkrRWPvPkYpec0vAfRm8Q==
+releaseDate: '2019-11-25T06:12:30.949Z'
