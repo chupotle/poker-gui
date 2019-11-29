@@ -1,19 +1,152 @@
-html, body, .container-fluid {
-  background-color: #D6D8DC;
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  background-color: #00FF00;
 }
 
-.text-input {
-  font-size: 16px;
+.boxed {
+  border: 1px solid black;
 }
 
-.hash-output {
-  color: #575B5E;
-  font-size: 16px;
-  letter-spacing: 2px;
-  white-space: pre-wrap;
+.card-cluster {
+  justify-content: flex-start;
+  display: flex;
 }
 
-.hash-heading {
-  color: #575B5E;
-  font-weight: normal;
+.flex-container-main {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+
+  height: 100%;
+
+}
+
+.flex-container-row {
+  flex: 1 1 0px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.flex-container {
+  flex-shrink: 0;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.table-cards {
+  display: flex;
+  justify-content: center;
+}
+
+
+.item-mid {
+  background-color: #767384;
+  border: 3px solid black;
+  flex-grow: 1;
+  height: 40px;
+}
+
+.item-outside {
+  background-color: #373554;
+  border: 3px solid black;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pot-container {
+  width: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding-left: 60px;
+  padding-right: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.table-container {
+  width: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-game {
+  background-color: #1F7ECC;
+  border: 3px solid black;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pot-box {
+  background-color: #373554;
+  border: 3px solid black;
+  height: 70px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pot-val {
+  background-color: #1F7ECC;
+  border: 3px solid black;
+  height: 70px;
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-text {
+  font-family:Impact, Charcoal, sans-serif;
+  text-align: center;
+  height: 70px;
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+p.bottom {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.no-padding {
+  margin: 0px;
+  padding: 0px;
+}
+
+.some-padding {
+  padding-left: 4px;
 }
