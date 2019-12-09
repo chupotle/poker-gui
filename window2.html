@@ -9,28 +9,29 @@
   <script>
     delete module.exports
   </script>
-   <link rel = "stylesheet"
-   type = "text/css"
-   href = "styles/styles.css" />
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./scripts/window2.js" charset="utf-8"></script>
 </head>
-
+<br>
+<br>
+<br>
+<br>
 <body class="flex-container-main canvas">
 
   <div class="flex-container-row">
   </div>
   <div class="flex-container-row">
 
-    <div class="flex-container">
+    <div class="flex-container" style="flex: 0 1 auto; padding-left: 60px;">
       <div class="card-cluster" style="margin-bottom: -65px;">
         <img class="no-padding" id="self-card1" src="./cards/R-high.svg" width="90" height="auto" />
         <img class="no-padding" id="self-card2" src="./cards/R-high.svg" width="90" />
       </div>
 
       <div class="item-outside">
-        <p id="self-role">SB</p>
+        <p id="self-role"></p>
       </div>
       <div class="item-mid"></div>
       <div class="item-mid"></div>
@@ -38,12 +39,14 @@
         <p id="self-pot"></p>
       </div>
     </div>
-    <div class="flex-container">
-      <div class="center-text">
-        <p class="bottom" id="table-pot">AAAAAAAA</p>
+    
+
+    <div class="flex-container" style="flex: 2 0 auto">
+      <div class="center-item">
+        <p class="center-text" id="centered-notes"></p>
+      </div>
     </div>
-    </div>
-    <div class="flex-container">
+    <div class="flex-container" style="flex: 0 1 auto; padding-right: 60px;">
       <div class="card-cluster" style="margin-bottom: -65px;">
         <img class="no-padding" id="opp-card1" src="./cards/R-high.svg" width="90" />
         <img class="no-padding" id="opp-card2" src="./cards/R-high.svg" width="90" />
@@ -63,12 +66,12 @@
 
   <div class="flex-container-row">
     <div class="pot-container">
-        <div class="pot-box">
-            <p class="bottom">POT</p>
-        </div>
-        <div class="pot-val">
-            <p class="bottom" id="table-pot"></p>
-        </div>
+      <div class="pot-box">
+        <p class="bottom">POT</p>
+      </div>
+      <div class="pot-val">
+        <p class="bottom" id="table-pot"></p>
+      </div>
     </div>
     <div class="card-cluster">
       <img class="no-padding" id="card-flop1" src="./cards/R.svg" width="85" />
@@ -78,20 +81,21 @@
       <img class="some-padding" id="card-river" src="./cards/R.svg" width="85" />
     </div>
     <div class="table-container">
-        <div>
-            <p class="bottom no-padding" id="level"> </p>
-        </div>
-        <div class="table-game">
-            <p class="bottom" id="table-type"></p>
-        </div>
-        <div>
-            <p class="bottom no-padding"> </p>
-        </div>
+      <div>
+        <p class="bottom no-padding" id="level"> </p>
       </div>
+      <div class="table-game">
+        <p class="bottom" id="table-type"></p>
+      </div>
+      <div>
+        <p class="bottom no-padding"> </p>
+      </div>
+    </div>
   </div>
 </body>
 <button onclick="takeScreenshot()" id="hide-me" class="btn btn-outline-primary btn-sm">Capture</button>
 <style>
 
 </style>
+
 </html>

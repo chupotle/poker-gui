@@ -30,8 +30,8 @@ app.on('ready', () => {
 
 function createWindow1() {
   window1 = new BrowserWindow({
-    width: 800,
-    height: 600
+    width: 400,
+    height: 700
   })
   window1.loadURL(url.format({
     pathname: path.join(__dirname, './window1.html'),

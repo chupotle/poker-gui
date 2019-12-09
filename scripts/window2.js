@@ -19,12 +19,14 @@ function screenshot() {
 
 ipcRenderer.on('forWin2', function (event, arg){
   $.each(arg, function(i, field){
-    if(field.value){
+    textvalue = field.value;
+    if(textvalue){
       if(field.name.includes('card')){
-        $(`#${field.name}`).attr("src", `./cards/${field.value}.svg`);
+        textvalue = textvalue.toLowerCase();
+        $(`#${field.name}`).attr("src", `./cards/${textvalue}.svg`);
       }
       else{
-        $(`#${field.name}`).text(`${field.value}`);
+        $(`#${field.name}`).text(`${textvalue}`);
       }
     }
     else{
