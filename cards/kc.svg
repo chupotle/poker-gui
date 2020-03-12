@@ -16,7 +16,8 @@
 
     </defs>
 
-    <rect width="100%" height="100%" x="0" y="0" fill="#fefefe"/>
+    <rect width="100%" height="100%" rx="20" ry="20" fill="#000000"/>
+    <rect width="94%" height="94%" x="3%" y="3%" rx="20" ry="20" fill="#FEFEFE"/>
 
     <!-- Little Card -->
     <g class="mini-card">

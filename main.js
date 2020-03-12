@@ -10,8 +10,8 @@ let window = null
 
 // Wait until the app is ready
 app.on('ready', () => {
-  window1 = createWindow1();
   window2 = createWindow2();
+  window1 = createWindow1();
 
   ipcMain.on('nameMsg', (event, arg) => {
     event.sender.send('nameReply', {
@@ -47,7 +47,8 @@ function createWindow1() {
 function createWindow2() {
   window2 = new BrowserWindow({
     width: 1600,
-    height: 900
+    height: 900,
+    resizable: false
   })
   window2.loadURL(url.format({
     pathname: path.join(__dirname, './window2.html'),

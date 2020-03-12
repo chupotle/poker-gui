@@ -19,7 +19,8 @@
             c-2.295,0.64-4.545-0.791-4.617-4.08c-0.021-1.003-0.088-2.075,0.265-2.233C7.372,22.296,11.417,26.779,12.038,28.031z"/>
     </defs>
 
-    <rect width="100%" height="100%" x="0" y="0" fill="#fefefe"/>
+    <rect width="100%" height="100%" rx="20" ry="20" fill="#000000"/>
+    <rect width="94%" height="94%" x="3%" y="3%" rx="20" ry="20" fill="#FEFEFE"/>
 
     <!-- Little Card -->
     <g class="mini-card">

@@ -18,3 +18,4 @@
         <use xlink:href="#numeral" transform="matrix(3.5,0,0,3.5,15,33.95)"/>
         <use xlink:href="#suit" transform="matrix(2,0,0,2,90,33.95)"/>
     </g>
+</svg>
